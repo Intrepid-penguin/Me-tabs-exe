@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Me-Tabs Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="header align-center">
+      <h2>Me-Tabs (Chrome Tab Manager)</h2>
+    </div>
+    <div class="add-group-section">
+      <div class="align-center add-group">
+        <input type="text" id="groupName" placeholder="Group name">
+        <button id="saveTabs">Save Current Tabs</button>
+      </div>
+      <div class="align-center">
+        <input type="checkbox" id="closeAfterSave">
+        <label for="closeAfterSave">Close tabs after saving</label>
+      </div>
+    </div>
+    <div class="align-center">
+      <select id="groupSelect"></select>
+      <button id="restoreTabs">Restore Group</button>
+      <button id="deleteGroup">Delete Group</button>
+    </div>
+    <div class="search-section">
+      <input type="text" id="searchTabs" placeholder="Search saved tabs">
+      <div id="searchResults"></div>
+     
+    </div>
+    <p class="align-center" style="margin-top: 1.2rem; font-weight: bolder;">Saved Tabs</p>
+    <div class="group-section align-center">
+      <div id="savedGroups"></div>
+    </div>
+    
+  </main>
+  <!-- <h2>Advanced Tab Manager</h2>
+  <input type="text" id="groupName" placeholder="Group name">
+  <button id="saveTabs">Save Current Tabs</button>
+  <select id="groupSelect"></select>
+  <button id="restoreTabs">Restore Group</button>
+  <button id="deleteGroup">Delete Group</button>
+  <br>
+  <input type="checkbox" id="closeAfterSave">
+  <label for="closeAfterSave">Close tabs after saving</label>
+  <br>
+  <input type="text" id="searchTabs" placeholder="Search saved tabs">
+  <div id="searchResults"></div>
+  <div id="savedGroups"></div> -->
+  <script src="popup.js"></script>
+</body>
+</html>
