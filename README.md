@@ -10,7 +10,7 @@ Follow these steps to load this Chrome extension in your browser:
 If you haven't already, clone or download this repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Intrepid-penguin/Me-tabs-exe.git
 ```
 
 ### Step 2: Load the Extension in Chrome
